@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <SiteNav v-if="showNav"></SiteNav>
+    <!-- <SiteNav v-if="showNav"></SiteNav> -->
     <router-view/>
   </div>
 </template>
@@ -11,7 +11,7 @@ import SiteNav from '@/components/SiteNav'
 
 export default {
   components: {
-    SiteNav
+    // SiteNav
   },
   computed: {
     ...mapState(['userProfile']),

@@ -8,6 +8,11 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
+    name: 'Cynthia Obasuyi',
+    component: () => import( /* webpackChunkName: "login" */ '../views/CynthiaObasuyi/CynthiaObasuyi.vue')
+  },
+  {
+    path: '/s',
     name: 'Dashboard',
     component: Dashboard,
     meta: {
